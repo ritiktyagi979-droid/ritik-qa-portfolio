@@ -3,6 +3,9 @@
 Automated test suite built with Selenium WebDriver + Python + pytest.
 Follows Page Object Model (POM) design pattern.
 
+## Test Results
+![Test Report](screenshots/test-report.png)
+
 ## Tech Stack
 - Python 3.x
 - Selenium WebDriver 4.x
@@ -26,17 +29,19 @@ ritik-qa-portfolio/
 - Locators: all 8 Selenium locator strategies demonstrated
 
 ## How to Run
-```bash
-# Install dependencies
+
+Install dependencies
 pip install -r requirements.txt
 
-# Run all tests
+Run all tests
 pytest tests/ -v
 
-# Run with HTML report
+Run with HTML report
 pytest tests/ -v --html=reports/report.html --self-contained-html
-```
+
+## Test Results
+![Test Report](screenshots/test-report.png)
 
 ## Author
-Ritik Tyagi — QA Engineer | 2+ years SaaS experience  
+Ritik Tyagi — QA Engineer | 2+ years SaaS experience
 LinkedIn: linkedin.com/in/ritiktyagi979
