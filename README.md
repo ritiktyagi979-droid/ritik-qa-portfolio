@@ -41,6 +41,7 @@ pytest tests/ -v --html=reports/report.html --self-contained-html
 
 ## Test Results
 ![Test Report](screenshots/test-report.png)
+![Locator Tests](screenshots/locators-report.png)
 
 ## Author
 Ritik Tyagi — QA Engineer | 2+ years SaaS experience
